@@ -1,0 +1,56 @@
+h3{
+    text-align: center;
+}
+.win{
+    background-image: url("imgwin.gif");
+    background-attachment: local;
+}
+.grid{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 312px;
+    width: 365px;
+    margin: auto;
+    opacity: 1;  
+}
+.unableit{
+    pointer-events: none;
+}
+
+button{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    text-decoration-color: darkred;
+    text-emphasis-color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    visibility: hidden;
+}
+button:hover{
+    background-color: greenyellow;
+}
+.playerone{
+    background-color: royalblue;
+    border-radius: 20px;
+}
+.playertwo{
+    background-color: darkred;
+    border-radius: 20px;
+}
+div{
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    border: 1px black solid;
+    border-radius: 23px;
+}
+
+.taken{ 
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+}
